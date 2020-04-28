@@ -11,7 +11,7 @@ class RelaxesController < ApplicationController
 
     def create
         @relax = Relax.create(
-            name: params[:name,
+            name: params[:name],
             capacity: params[:capacity],
             vibe: params[:vibe],
             location: params[:location_id]

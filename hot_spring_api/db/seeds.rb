@@ -11,11 +11,12 @@ glenwood = Location.create(city: "Glenwood Springs")
 pagosa = Location.create(city: "Pagosa Springs")
 buena = Location.create(city: "Buena Vista")
 
-#Rests
-Rest.create(name:
-    type:
-    capacity:
-    location:)
+# Rests
+# Rest.create(
+#     name: "Pagosa Springs Resort and Spa",
+#     type: "Resort hotel",
+#     capacity: 79,
+#     location: pagosa)
 
 #Relaxes
 sheep_creek = Relax.create(name: "Sheep Creek Hot Springs",
@@ -28,8 +29,8 @@ rainbow = Relax.create( name: "Rainbow Hot Springs",
     location: pagosa)
 
 #Recoveries
-Recovery.create(name:
-    activity:
-    activity_level:
-    cost:
-    location:)
+# Recovery.create(name:
+#     activity:
+#     activity_level:
+#     cost:
+#     location:)
