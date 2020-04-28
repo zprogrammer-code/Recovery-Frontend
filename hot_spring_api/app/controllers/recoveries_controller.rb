@@ -1,2 +1,3 @@
 class RecoveriesController < ApplicationController
+    
 end
