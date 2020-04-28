@@ -1,12 +1,12 @@
 class RecoveriesController < ApplicationController
 
     def index
-        @recoveries = Rocoveries.all
+        @recoveries = Recovery.all
         render json: @recoveries
     end
 
     def create
-        @recover = Rocoveries.create(
+        @recover = Recovery.create(
             activity: params[:activity],
             activity_level: params[:activity_level],
             cost: params[:cost]
@@ -15,7 +15,7 @@ class RecoveriesController < ApplicationController
     end
 
     def show
-        @recover = Rocoveries.find(params[:id])
+        @recover = Recovery.find(params[:id])
         render json: @recover
     end
 
