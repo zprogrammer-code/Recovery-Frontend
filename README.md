@@ -1,2 +1,2 @@
 # Recovery-Frontend
-Hacathon
+Hackathon
