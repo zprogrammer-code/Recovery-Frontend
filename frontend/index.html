@@ -3,27 +3,49 @@
 <head>
     <title>Recovery_Hackathon</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <div class="Main-header">
                 <div class="navbar-header">
-                    <a class="navbar-Logo" href="index.html">Badassary reocovery</a>
+                    <a class="navbar-Logo" href="index.html" style="text-decoration: none;">Badassary reocovery</a>
 
                 </div>
                 <ul class="nav-header">
-                    <li><a href="relax.html">Relax</a></li>
-                    <li><a href="rest.html">Rest</a></li>
-                    <li><a href="recover.html">Recover</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="locations.html">locations</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <form id="search" action="">
+                        <input type="text">
+                        <input type="submit">
+                    </form>
                 </ul>
-                <form id="search" action="">
-                    <input type="text">
-                    <button></button>
-                </form>
             </div>
             <main>
-                <nav class="sidebar"></nav>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="rest.html">Rest</a>
+                    <a href="relax.html">Relax</a>
+                    <a href="Recover.html">Recover</a>
+                  </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <span onclick="openNav()" id="recovery-sidebar">Recovery</span>
+                  
+                  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+                  <div class="hero-image">
+                    <div class="hero-text">
+                      <h1 style="font-size:50px">Recovery</h1>
+                      <h3>Restore</h3>
+                        <p class="main-description">
+                            Here at Recovery.com we want to direct people to locations that include relaxing activities as well as recovery activities.<br>
+                            This will include hot springs and spas, hiking and biking, retreats.
+                         </p>
+                    </div>
+                  </div>
+                 
                 <footer>
                 </footer>
             </main>
