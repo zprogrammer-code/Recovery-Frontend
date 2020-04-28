@@ -18,7 +18,7 @@
 }
 
 .nav-header li {
-    flex: ;
+    /* flex: ; */
     display: flex;
     align-items: center;
     justify-content: center;
