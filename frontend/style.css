@@ -1,0 +1,23 @@
+.Main-header {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: aqua;
+    
+ 
+}
+ 
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.nav-header li {
+    flex: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
