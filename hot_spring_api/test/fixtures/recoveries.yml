@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  activity: MyString
+  activity_level: 
+  cost: 1.5
+  location: one
+
+two:
+  activity: MyString
+  activity_level: 
+  cost: 1.5
+  location: two
